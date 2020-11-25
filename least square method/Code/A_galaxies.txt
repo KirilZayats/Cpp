@@ -1,0 +1,9 @@
+Dorado Cluster,293,0.165
+Hydra I,303,0.167
+Abell S753,313,0.177
+CGRM 15,323,0.179
+Abell 3574,333,0.182
+Abell 194,343,0.189
+Abell S639,353,0.196
+Coma Cluster,363,0.205
+DC 2345-28,373,0.231
