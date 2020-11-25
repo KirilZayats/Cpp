@@ -3,7 +3,7 @@
 
 double Fx(double x)
 {
-	return x*x*x + 3*x - sqrt(2*x*x+5);
+	return 2*x+1;
 }
 
 double Fxy(double x, double y)
@@ -11,7 +11,7 @@ double Fxy(double x, double y)
 	return (x - 0.5) * (x - 0.5) + (y - 1.5) * (y - 1.5);
 }
 
-double Gxy(double x, double y, FuncXY_t funkArea, FuncXY_t Fxy)
+double Gxy(double x, double y, FuncXY_t Fxy, FuncXY_t funkArea)
 {
 	if (funkArea(x, y) <= 0)
 		return Fxy(x, y);
@@ -24,7 +24,7 @@ double rg_func(double x, double y)
 	return (x - 0.5) * (x - 0.5) + (y - 1.5) * (y - 1.5) - 0.5 * 0.5;
 }
 
-bool Runge_criteria(double(*func)(FuncX_t&,const double&,const double&,int&),FuncX_t& Fx, const double& l_border, const double& r_border, int& n, const double& eps)
+bool Runge_criteria(double(*func)(FuncX_t&,const double&,const double&,int&),FuncX_t& Fx, const double& l_border, const double& r_border, int n, const double& eps)
 {	
 	if (func == Simpson_method)
 	{
