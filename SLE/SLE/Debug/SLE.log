@@ -1,0 +1,8 @@
+﻿  LDLT-factorisation.cpp
+D:\Учёба\Программирование\C-works\semester№3\SLE\SLE\LDLT-factorisation.cpp(7,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SLE\SLE\LDLT-factorisation.cpp(9,25): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SLE\SLE\LDLT-factorisation.cpp(20,25): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SLE\SLE\LDLT-factorisation.cpp(25,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SLE\SLE\LDLT-factorisation.cpp(34,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SLE\SLE\LDLT-factorisation.cpp(42,25): warning C4018: <: несоответствие типов со знаком и без знака
+  SLE.vcxproj -> D:\Учёба\Программирование\C-works\semester№3\SLE\Debug\SLE.exe

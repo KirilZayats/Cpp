@@ -1,0 +1,19 @@
+﻿  Auxiliares.cpp
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(7,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(11,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(14,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(18,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(32,25): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(59,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(62,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(64,21): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(69,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(80,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(88,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(99,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(134,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(142,20): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(151,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(156,19): warning C4018: <: несоответствие типов со знаком и без знака
+D:\Учёба\Программирование\C-works\semester№3\SSDE\SSDE\Auxiliares.cpp(180): warning C4715: h_step: значение возвращается не при всех путях выполнения
+  SSDE.vcxproj -> D:\Учёба\Программирование\C-works\semester№3\SSDE\Debug\SSDE.exe
