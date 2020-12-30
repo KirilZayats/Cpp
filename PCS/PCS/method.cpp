@@ -1,7 +1,7 @@
 #include"PCS.h"
 
 
-void methodSeidel(matrix_t& matrixTemp, double T1, double T2, double stepX, double stepY, double eps,const int zoneValue)
+void methodSeidel(matrix_t& matrixTemp, double T1, double T2, double stepX, double stepY, double eps,const int zoneValue,double lamda, int& numbIter)
 {
 	for (int j(0); j < matrixTemp.size(); j++) {
 		for (int k(0); k < matrixTemp[j].size() && matrixTemp[j][k] != zoneValue; k++) {
@@ -10,12 +10,13 @@ void methodSeidel(matrix_t& matrixTemp, double T1, double T2, double stepX, doub
 	}
 	for (int i = 0; i < 3000; i++)
 	{
+		numbIter++;
 		bool isEquilibrium = true;
 		for (int j(0); j < matrixTemp.size(); j++) {
 			
 			for (int k(0); k < matrixTemp[j].size() && matrixTemp[j][k] != zoneValue; k++) {
 				double temp = 0;
-				double number = 0;
+			    double number = 0;
 				double pastStep = matrixTemp[j][k];
 				if (isExist(matrixTemp, j - 1, k, zoneValue)) {
 					number += stepX;
@@ -45,8 +46,8 @@ void methodSeidel(matrix_t& matrixTemp, double T1, double T2, double stepX, doub
 						number += stepY;
 					}
 				}
-				temp /= number;
-				matrixTemp[j][k] = temp;
+				temp /= number;				
+				matrixTemp[j][k] = matrixTemp[j][k]+lamda*(temp-matrixTemp[j][k]);
 				if (abs(pastStep - temp) > eps) {
 					isEquilibrium = false;
 				}
